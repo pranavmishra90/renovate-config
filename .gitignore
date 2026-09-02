@@ -8,3 +8,10 @@ wheels/
 
 # Virtual environments
 .venv
+
+
+*.env
+node_modules/
+package*.json
+
+*.log
