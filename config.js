@@ -3,7 +3,7 @@ module.exports = {
     "gitAuthor": "Renovate Bot <renovate-bot@mishracloud.com>",
     "platform": "forgejo",
     "autodiscover": true,
-    "autodiscoverFilter": ["MishraCloud/renovate-config"],
+    "autodiscoverFilter": ["MishraCloud/renovate-config", "FacsimiLab/*"],
     "optimizeForDisabled": false,
     "token": process.env.RENOVATE_TOKEN
 };
