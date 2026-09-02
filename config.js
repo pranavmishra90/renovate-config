@@ -4,7 +4,7 @@ module.exports = {
     "gitAuthor": "Renovate Bot <renovate-bot@mishracloud.com>",
     "platform": "forgejo",
     "autodiscover": true,
-    "autodiscoverFilter": ["MishraCloud/renovate-config", "FacsimiLab/*"],
+    "autodiscoverFilter": ["MishraCloud/*", "FacsimiLab/*", "Facsimilab-Rush/*", "pranavmishra90/*"],
     "optimizeForDisabled": true,
     "onboarding": true,
     "onboardingAutoCloseAge": 100,
