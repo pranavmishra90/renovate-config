@@ -7,7 +7,7 @@ module.exports = {
     ],
     "platform": "forgejo",
     "autodiscover": true,
-    "autodiscoverFilter": ["MishraCloud/*", "FacsimiLab/*", "Facsimilab-Rush/*", "pranavmishra90/*"],
+    "autodiscoverFilter": ["pranavmishra90/*"],
     "optimizeForDisabled": true,
     "onboarding": true,
     "onboardingAutoCloseAge": 100,
