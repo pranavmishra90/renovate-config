@@ -12,4 +12,4 @@ export LOG_FILE=${LOG_FILE:-./renovate.log}
 export GITHUB_COM_TOKEN=${GITHUB_COM_TOKEN:-$GH_TOKEN_READ_ONLY}
 
 # ./node_modules/.bin/renovate
-npx renovate
+npx renovate --config-validation-error
