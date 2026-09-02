@@ -12,6 +12,6 @@ wheels/
 
 *.env
 node_modules/
-package*.json
+# package*.json
 
 *.log
