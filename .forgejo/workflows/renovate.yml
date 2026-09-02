@@ -20,6 +20,6 @@ jobs:
       - run: renovate
         env:
           RENOVATE_CONFIG_FILE: "./config.js"
-          LOG_LEVEL: "debug"
+          LOG_LEVEL: "info"
           RENOVATE_TOKEN: ${{ secrets.RENOVATE_TOKEN }}
           GITHUB_COM_TOKEN: ${{ secrets.GH_TOKEN_READ_ONLY }}
