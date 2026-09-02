@@ -11,4 +11,5 @@ export RENOVATE_ONBOARDING=${RENOVATE_ONBOARDING:-true}
 export LOG_FILE=${LOG_FILE:-./renovate.log}
 export GITHUB_COM_TOKEN=${GITHUB_COM_TOKEN:-$GH_TOKEN_READ_ONLY}
 
-./node_modules/.bin/renovate
+# ./node_modules/.bin/renovate
+npx renovate
