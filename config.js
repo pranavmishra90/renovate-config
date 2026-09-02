@@ -5,6 +5,10 @@ module.exports = {
     "platform": "forgejo",
     "autodiscover": true,
     "autodiscoverFilter": ["MishraCloud/renovate-config", "FacsimiLab/*"],
-    "optimizeForDisabled": false,
+    "optimizeForDisabled": true,
+    "onboarding": true,
+    "onboardingAutoCloseAge": 100,
+    "onboardingConfigFileName": ".renovaterc.json",
+    "onboardingRebaseCheckbox": true,
     "token": process.env.RENOVATE_TOKEN
 };
