@@ -18,8 +18,11 @@ module.exports = {
     "dependencyDashboard": true,
     
     "extends": [
-      ":semanticCommits", 
-      ":dependencyDashboard", 
+      ":semanticCommits",
+      ":semanticCommitTypeAll(ci)",
+      
+      ":dependencyDashboard",
+      
       "docker:pinDigests", 
       "helpers:pinGitHubActionDigests", 
       ":configMigration", 
@@ -28,12 +31,16 @@ module.exports = {
       "security:minimumReleaseAgeNpm", 
       ":maintainLockFilesWeekly",
       ":semanticPrefixFixDepsChoreOthers", 
-      ":ignoreModulesAndTests", 
+      ":ignoreModulesAndTests",
+      
       "group:monorepos", 
       "group:recommended", 
-      "mergeConfidence:age-confidence-badges", 
+      
+      "mergeConfidence:age-confidence-badges",
+      
       "replacements:all", 
       "workarounds:all", 
+      
       "helpers:forgejoDigestChangelogs", 
       "helpers:giteaDigestChangelogs", 
       "helpers:githubDigestChangelogs", 
