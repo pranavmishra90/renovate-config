@@ -14,5 +14,6 @@ module.exports = {
     "onboardingConfigFileName": ".renovaterc.json",
     "onboardingRebaseCheckbox": true,
     "token": process.env.RENOVATE_TOKEN,
+    "dependencyDashboard": true,
     "extends": [":semanticCommits"]
 };
