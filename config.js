@@ -23,13 +23,6 @@ module.exports = {
       
       ":dependencyDashboard",
       
-      "docker:pinDigests", 
-      "helpers:pinGitHubActionDigests", 
-      ":configMigration", 
-      ":pinDevDependencies", 
-      "abandonments:recommended", 
-      "security:minimumReleaseAgeNpm", 
-      ":maintainLockFilesWeekly",
       ":semanticPrefixFixDepsChoreOthers", 
       ":ignoreModulesAndTests",
       
@@ -47,6 +40,14 @@ module.exports = {
       "helpers:gitlabDigestChangelogs", 
       "helpers:goXPackagesChangelogLink", 
       "helpers:goXPackagesNameLink", 
-      "helpers:renovateChangelog" 
+      "helpers:renovateChangelog",
+
+      "docker:pinDigests",
+      "helpers:pinGitHubActionDigests",
+      ":configMigration",
+      ":pinDevDependencies",
+      "abandonments:recommended",
+      "security:minimumReleaseAgeNpm",
+      ":maintainLockFilesWeekly"
   ]
 };
