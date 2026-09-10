@@ -28,7 +28,14 @@ module.exports = {
       matchDatasources: ["docker"],
       matchUpdateTypes: ["digest"],
       automerge: true
-    }
+    },
+    {
+      description: "Automerge GitHub / Forgejo Actions updates",
+      matchManagers: ["github-actions"],
+      matchUpdateTypes: ["pin", "digest", "patch"],
+      matchCurrentVersion: "!/^0/",
+      automerge: true,
+    },
   ],
 
   extends: [
