@@ -5,7 +5,7 @@ module.exports = {
   reviewers: ["pranavmishra90"],
   platform: "forgejo",
   autodiscover: true,
-  autodiscoverFilter: ["pranavmishra90/*"],
+  autodiscoverFilter: ["MishraCloud/*"],
   optimizeForDisabled: true,
 
   onboarding: true,
