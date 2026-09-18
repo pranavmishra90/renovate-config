@@ -2,7 +2,7 @@ name: renovate
 
 on:
   schedule:
-    - cron: "@hourly"
+    - cron: "@daily"
   push:
     branches:
       - main
