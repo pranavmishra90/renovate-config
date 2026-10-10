@@ -29,11 +29,11 @@ module.exports = {
       automerge: true
     },
     {
-      description: "Automerge GitHub / Forgejo Actions updates",
+      description: "GitHub / Forgejo Actions updates",
       matchManagers: ["github-actions"],
       matchUpdateTypes: ["pin", "minor", "patch"],
       matchCurrentVersion: "!/^0/",
-      automerge: true,
+      automerge: false,
     },
   ],
 
