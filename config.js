@@ -1,6 +1,6 @@
 module.exports = {
   configValidationError: true,
-  reviewers: ["pranavmishra90"],
+  reviewers: ["pranavmishra90", "mira-mishracloud"],
   platform: "github",
   autodiscover: false,
   optimizeForDisabled: true,
