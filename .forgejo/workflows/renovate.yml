@@ -1,8 +1,8 @@
 name: renovate
 
 on:
-  schedule:
-    - cron: "@daily"
+  # schedule:
+  #   - cron: "@daily"
   push:
     branches:
       - main
@@ -11,9 +11,9 @@ on:
 jobs:
   renovate:
     runs-on: ubuntu-latest
-    container: ghcr.io/renovatebot/renovate:44.59.2
+    container: ghcr.io/renovatebot/renovate@1ffc71775d95bd2233bf5a867744c5a92d845b5928dee93f5bb22ced956e4e38 #44.176.2
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # 7.0.1
       - run: |
           git config user.name "Renovate Bot"
           git config user.email "renovate-bot@mishracloud.com"
