@@ -18,13 +18,13 @@ module.exports = {
       description: "Automerge non-major updates",
       matchUpdateTypes: ["minor", "patch"],
       matchCurrentVersion: "!/^0/",
-      automerge: true,
+      automerge: false,
     },
     {
       description: "Automerge Docker updates",
       matchDatasources: ["docker"],
       matchUpdateTypes: ["pin", "minor", "patch"],
-      automerge: true
+      automerge: false
     },
     {
       description: "GitHub / Forgejo Actions updates",
